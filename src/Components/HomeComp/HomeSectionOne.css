@@ -1,0 +1,57 @@
+.homeDiv{
+    padding: 30px 10%;
+    width: 100%;
+    
+}
+.homeSecDiv{
+    display: flex;
+    margin-top: 150px;
+}
+.homeSecText {
+    font-size: 20px;
+    align-items: center;
+   padding: 20px;
+    
+}
+.homeSecText h5{
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.homeSecText span{
+    color: orange;  
+}
+.homeSecText p{
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.cvDiv{
+    display: flex;
+    gap: 20px; 
+    padding-top: 20px;
+    
+}
+.cvDiv button{
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cvDiv button:hover{
+        background-color: black;
+        color: white;
+
+}
+.cvDiv p{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+

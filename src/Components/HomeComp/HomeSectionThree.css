@@ -1,0 +1,152 @@
+
+.skillSection{
+    padding: 30px 10%; 
+    
+   
+}
+
+.skillSection button{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.skillSection span{
+    color:orange;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.skillSection button:hover{
+    background-color: black;
+    color: white;
+}
+
+.skillSetDiv{
+    display: flex;
+    align-items: center;
+     gap: 50px;
+     padding: 4px  20%;
+}
+
+.skillSet{
+    margin-top: 20px;
+    border: solid 2px rgb(205, 205, 205);
+    padding: 20px;
+    cursor: pointer;
+}
+.skillSet h2{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+.skillSet p{
+    margin-bottom: 20px;
+    line-height: 5px;
+    gap: 20px;
+}
+.skillSet span{
+    padding: 10px;
+    gap: 10px;
+    color: white;
+}
+
+.contactSection{
+    padding: 30px 10%;
+}
+
+.conDiv button{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.conDiv span{
+    color: orange;
+    margin-top: 10px;
+   
+}
+
+.conDiv button:hover{
+    background-color: black;
+    color: white;
+}
+
+.contactDiv h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: bolder;
+}
+.emailDiv p{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.emailDiv :hover{
+    background-color: black;
+    color: white;
+}
+.phoneDiv p{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.phoneDiv :hover{
+    background-color: black;
+    color: white;
+}
+.whatsappDiv p{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.whatsappDiv :hover{
+    background-color: black;
+    color: white;
+}

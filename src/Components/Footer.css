@@ -1,0 +1,20 @@
+.footerSection{
+    padding: 30px 10%;
+}
+
+.footerDiv{
+    border-top: solid darkgray 1px;
+}
+
+.footerDiv p{
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    
+}
+.footerDiv span{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 15px;
+}

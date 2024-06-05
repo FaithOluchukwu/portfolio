@@ -1,0 +1,45 @@
+
+.myNavBar{
+    padding: 30px 10%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 100;
+     
+}
+.NavDiv{
+    display: flex;
+    cursor: pointer;
+}
+.NavDiv ul{
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.NavDiv ul li{
+    list-style: none;
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+.NavDiv li{
+    cursor: pointer;
+}
+.NavDiv h1{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    
+}
+.NavDiv span{
+    color: orange;
+    font-weight: bolder;
+}
+
+.NavDiv ul :hover{
+    border-bottom: solid orange 0px;
+}
