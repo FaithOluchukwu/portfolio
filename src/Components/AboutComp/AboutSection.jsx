@@ -72,7 +72,7 @@ const AboutSection = () => {
                         </div>
 
                         <div className='whatsappDiv'>
-                            <p>WhatsApp Me</p>
+                            <p>Chat Me</p>
                         </div>
                     </div>
 
