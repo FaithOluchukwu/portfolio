@@ -7,7 +7,7 @@ import sample2 from '../images/Growstore.png'
 import sample3 from '../images/Tailwindwebsite.png'
 import sample4 from '../images/Netflix.png'
 import sample5 from '../images/audio.png'
-import { BsPersonWorkspace } from "react-icons/bs";
+import { BsPersonWorkspace } from 'react-icons/bs';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 

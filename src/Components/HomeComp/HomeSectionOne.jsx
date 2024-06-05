@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
 import './HomeSectionOne.css'
-import { PiHandWavingThin } from "react-icons/pi";
-import { IoLogoLinkedin } from "react-icons/io5";
-import { TfiTwitter } from "react-icons/tfi";
-import { FaSquareGithub } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
+import { PiHandWavingThin } from 'react-icons/pi';
+import { IoLogoLinkedin } from 'react-icons/io5';
+import { TfiTwitter } from 'react-icons/tfi';
+import { FaSquareGithub } from 'react-icons/fa6';
+import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 import image1 from '../images/faithpicture.jpg'
 import Link from 'next/link';
