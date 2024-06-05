@@ -3,9 +3,6 @@
 import React from 'react'
 import { IoBookSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa";
-import { IoCall } from "react-icons/io5";
-import { MdOutlineEmail } from "react-icons/md";
-import { IoLogoWhatsapp } from "react-icons/io";
 import { MdContactPhone } from "react-icons/md";
 import './HomeSectionThree.css'
 

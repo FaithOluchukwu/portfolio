@@ -2,7 +2,6 @@
 import React from 'react'
 import './AboutSection.css'
 import { IoIosPerson } from "react-icons/io";
-import { MdContactPhone } from "react-icons/md";
 import Image from 'next/image';
 import image2 from '../images/faithpicture.jpg'
 import AOS from 'aos';
