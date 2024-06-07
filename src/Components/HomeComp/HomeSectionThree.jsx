@@ -1,9 +1,9 @@
 
 'use client'
 import React from 'react'
-import { IoBookSharp } from 'react-icons/io5';
-import { FaArrowRight } from 'react-icons/fa';
-import { MdContactPhone } from 'react-icons/md';
+import { IoBookSharp } from "react-icons/io5";
+import { FaArrowRight } from "react-icons/fa";
+import { MdContactPhone } from "react-icons/md";
 import './HomeSectionThree.css'
 
 
