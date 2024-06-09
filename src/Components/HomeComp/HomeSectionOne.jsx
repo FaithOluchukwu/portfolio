@@ -11,13 +11,18 @@ import image1 from '../images/faithpicture.jpg'
 import Link from 'next/link';
 
 const HomeSectionOne = () => {
+  let element = null;
+  if (typeof document !== 'undefined') {
+    // This code only runs in the browser
+    element = document.getElementById('myElement');
+  }
   return (
     <div>
       <div className='homeDiv'>
     <div className='homeSecDiv'>
       <div className='homeSecText'>
       <h5>Hello <span><PiHandWavingThin/></span> </h5>
-                <h1>I'm a UI&UX Designer, <br/>Front-end developer,<br/> based in PH, Nigeria. NG</h1>
+                <h1>I m a UI&UX Designer, <br/>Front-end developer,<br/> based in PH, Nigeria. NG</h1>
                 <p> I am a front-end developer on a journey of continous learning <br/> and growth. 
                   With strong foundation in HTML, CSS and <br/> Javascript.
                 </p> 

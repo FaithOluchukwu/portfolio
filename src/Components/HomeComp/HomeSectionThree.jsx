@@ -8,6 +8,11 @@ import './HomeSectionThree.css'
 
 
 const HomeSectionThree = () => {
+    let element = null;
+    if (typeof document !== 'undefined') {
+      // This code only runs in the browser
+      element = document.getElementById('myElement');
+    }
   return (
   <div>
         <div className='skillSection'>
@@ -41,7 +46,7 @@ const HomeSectionThree = () => {
                         <div className='conDiv'>
                              <button><span><MdContactPhone/></span> Contact</button>
                          </div>
-                        <h3>Got an interesting project?, let's work together!</h3>
+                        <h3>Got an interesting project?, let s work together!</h3>
                         <div className='emailDiv'> 
                             <p>faitholuchic@gmail.com</p>
                         </div>

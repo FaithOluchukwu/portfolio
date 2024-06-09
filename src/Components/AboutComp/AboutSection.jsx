@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useEffect } from 'react';
 import './AboutSection.css'
 import { IoIosPerson } from "react-icons/io";
 import Image from 'next/image';
@@ -8,7 +8,21 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 
+
 const AboutSection = () => {
+
+  let element = null;
+  if (typeof document !== 'undefined') {
+    // This code only runs in the browser
+    element = document.getElementById('myElement');
+  }
+
+  useEffect(() => {
+    // This code will only run on the client side
+    const element = document.getElementById('my-element');
+    // Your other client-side code
+  }, []);
+
 
   AOS.init();
 
@@ -23,7 +37,7 @@ const AboutSection = () => {
                   </div>
            <div className='aboutSectionText'>
               <h1>About Me <span><IoIosPerson/></span></h1>
-              <p>Hello, I'm Faith Chukwu O., a UI/UX designer and
+              <p>Hello, I m Faith Chukwu O., a UI/UX designer and
                  Front-end developer. With a blend of creativity 
                  and technical expertise, I strive to create engaging and intuitive 
                 digital experiences that delight users.</p>
@@ -58,12 +72,12 @@ const AboutSection = () => {
                     the needs and behaviors of users, I create solutions
                      that not only meet but exceed their expectations.</p>
 
-                     <h1> Let's Connect</h1>
+                     <h1> Lets Connect</h1>
                        <div className='contactSection' >
                     <div className='contactDiv' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-                        <p>Got an interesting project?, let's work together! I am always eager to collaborate on exciting projects and contribute my skills to create impactful digital experiences. </p>
+                        <p>Got an interesting project?, lets work together! I am always eager to collaborate on exciting projects and contribute my skills to create impactful digital experiences. </p>
                         <div className='emailDiv'> 
                             <p>faitholuchic@gmail.com</p>
                         </div>

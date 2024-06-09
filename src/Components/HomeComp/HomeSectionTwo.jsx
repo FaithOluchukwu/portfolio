@@ -17,7 +17,11 @@ import 'aos/dist/aos.css';
 
 
 const HomeSectionTwo = () => {
-
+  let element = null;
+  if (typeof document !== 'undefined') {
+    // This code only runs in the browser
+    element = document.getElementById('myElement');
+  }
 
   AOS.init();
 
@@ -30,7 +34,7 @@ const HomeSectionTwo = () => {
     <div className='butDiv'>
             <button>MY <br/>PROJECTS  <span> <BsPersonWorkspace /></span></button>
             </div>
-                <h2>Projects that I've done for the 
+                <h2>Projects that I ve done for the 
                   <br/> past 3 months of continous learning..</h2>
     </div>
 
@@ -103,7 +107,7 @@ const HomeSectionTwo = () => {
               interface design tool.
               This project involved creating wireframes, 
               designing user interfaces, and developing interactive
-               prototypes to showcase the app's functionality
+               prototypes to showcase the apps functionality
                This project allowed me to demonstrate my skills in 
                user interface design, prototyping, and collaboration, showcasing my ability to 
                create engaging and functional digital experiences.

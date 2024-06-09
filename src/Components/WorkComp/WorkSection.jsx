@@ -13,6 +13,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const WorkSection = () => {
+  let element = null;
+  if (typeof document !== 'undefined') {
+    // This code only runs in the browser
+    element = document.getElementById('myElement');
+  }
 
     AOS.init();
   return (
@@ -23,7 +28,7 @@ const WorkSection = () => {
 <div className='butDiv'>
         <button>MY <br/>WORKS <span> <BsPersonWorkspace /></span></button>
         </div>
-            <h2>Works that I've done for the 
+            <h2>Works that I ve done for the 
               <br/> past 3 months of continous learning..</h2>
 </div>
 
@@ -96,7 +101,7 @@ const WorkSection = () => {
           interface design tool.
           This project involved creating wireframes, 
           designing user interfaces, and developing interactive
-           prototypes to showcase the app's functionality
+           prototypes to showcase the apps functionality
            This project allowed me to demonstrate my skills in 
            user interface design, prototyping, and collaboration, showcasing my ability to 
            create engaging and functional digital experiences.
@@ -136,7 +141,7 @@ const WorkSection = () => {
  data-aos-duration="3000">
                              <button><span><MdContactPhone/></span> Contact</button>
                          </div>
-                        <h3>Got an interesting project?, let's work together!</h3>
+                        <h3>Got an interesting project?, lets work together!</h3>
                         <div className='emailDiv' data-aos="fade-up"
  data-aos-duration="3000"> 
                             <p>faitholuchic@gmail.com</p>
