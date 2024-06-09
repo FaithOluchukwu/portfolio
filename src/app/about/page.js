@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react';
 import AboutSection from '@/Components/AboutComp/AboutSection'
 
-const page = () => {
+const AboutPage = () => {
   useEffect(() => {
     // This code will only run on the client side
     const element = document.getElementById('my-element');
@@ -16,4 +16,4 @@ const page = () => {
   )
 }
 
-export default page
+export default AboutPage

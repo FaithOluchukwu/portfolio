@@ -2,7 +2,7 @@
 import WorkSection from '@/Components/WorkComp/WorkSection'
 import { useEffect } from 'react';
 
-const page = () => {
+const WorksPage = () => {
 
   useEffect(() => {
     // Code that accesses document or window objects
@@ -25,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default WorksPage
