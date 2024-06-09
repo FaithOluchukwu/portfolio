@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect } from 'react';
-import AboutSection from '@/Components/AboutComp/AboutSection'
+import AboutSection from '.@/Components/AboutComp/AboutSection'
 
 const AboutPage = () => {
   useEffect(() => {

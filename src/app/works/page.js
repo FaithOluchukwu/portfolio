@@ -1,5 +1,5 @@
 'use client'
-import WorkSection from '@/Components/WorkComp/WorkSection'
+import WorkSection from '.@/Components/WorkComp/WorkSection'
 import { useEffect } from 'react';
 
 const WorksPage = () => {
