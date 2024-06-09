@@ -15,15 +15,15 @@ const Navbar = () => {
                 
 
                 
-                
+                <Link href="/">
                 <li>Home</li>
-                
+                </Link>
 
-                <Link href= '/about/page.js'>
+                <Link href= '/about'>
                 <li>About</li>
                 </Link>
                 
-                <Link href='/works/page.js'>
+                <Link href='/works'>
                 <li>Works</li>
                   </Link>
                
