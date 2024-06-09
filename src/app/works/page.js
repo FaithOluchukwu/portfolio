@@ -2,7 +2,7 @@
 import WorkSection from '@/Components/WorkComp/WorkSection'
 import { useEffect } from 'react';
 
-const WorksPage = () => {
+const page = () => {
 
   useEffect(() => {
     // Code that accesses document or window objects
@@ -11,11 +11,11 @@ const WorksPage = () => {
     }
   }, []);
 
-  let element = null;
-  if (typeof document !== 'undefined') {
-    // This code only runs in the browser
-    element = document.getElementById('myElement');
-  }
+  // let element = null;
+  // if (typeof document !== 'undefined') {
+  //   // This code only runs in the browser
+  //   element = document.getElementById('myElement');
+  // }
 
   
   return (
@@ -25,4 +25,4 @@ const WorksPage = () => {
   )
 }
 
-export default WorksPage
+export default page

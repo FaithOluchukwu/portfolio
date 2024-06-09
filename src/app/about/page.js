@@ -3,13 +3,7 @@
 import React, { useEffect } from 'react';
 import AboutSection from '@/Components/AboutComp/AboutSection'
 
-const AboutPage = () => {
-  let element = null;
-  if (typeof document !== 'undefined') {
-    // This code only runs in the browser
-    element = document.getElementById('myElement');
-  }
-
+const page = () => {
   useEffect(() => {
     // This code will only run on the client side
     const element = document.getElementById('my-element');
@@ -22,4 +16,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default page
