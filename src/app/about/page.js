@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect } from 'react';
-import AboutSection from '.@/Components/AboutComp/AboutSection'
+
 
 const AboutPage = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const AboutPage = () => {
   }, []);
   return (
     <div>
-      <AboutSection/>
+      AboutPage
     </div>
   )
 }
