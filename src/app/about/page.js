@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react';
 import AboutSection from '@/Components/AboutComp/AboutSection'
 
-const Aboutpage = () => {
+const AboutPage = () => {
   let element = null;
   if (typeof document !== 'undefined') {
     // This code only runs in the browser
@@ -22,4 +22,4 @@ const Aboutpage = () => {
   )
 }
 
-export default Aboutpage
+export default AboutPage
