@@ -1,15 +1,16 @@
 'use client'
 import WorkSection from '@/Components/WorkComp/WorkSection'
-import { useEffect } from 'react';
+import React from 'react';
+
 
 const page = () => {
 
-  useEffect(() => {
-    // Code that accesses document or window objects
-    if (typeof document !== 'undefined') {
-      // Your document-related code here
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Code that accesses document or window objects
+  //   if (typeof document !== 'undefined') {
+  //     // Your document-related code here
+  //   }
+  // }, []);
 
   // let element = null;
   // if (typeof document !== 'undefined') {
